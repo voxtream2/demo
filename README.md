@@ -6,12 +6,36 @@ permalink: /
 
 <div style="text-align:center;">
 
-  <h1>VoXtream2: Full-stream TTS with dynamic speaking rate control</h1>
+  <h1>Full-stream TTS with dynamic speaking rate control via duration distribution guidance</h1>
+
+  <!-- badges -->
+  <p>
+    <a href="https://anonymous.4open.science/r/voxtream2" target="_blank">
+      <img src="https://img.shields.io/badge/GitHub-Code-green" />
+    </a>
+    <a href="https://huggingface.co/voxtream2/model" target="_blank">
+      <img src="https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Model-yellow" />
+    </a>
+    <a href="https://huggingface.co/spaces/voxtream2/demo" target="_blank">
+      <img src="https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Demo-yellow" />
+    </a>
+  </p>
 
   <!-- authors -->
   <div style="margin:1rem auto 2rem; font-size: 18px; font-style: italic;">
-  Anonymous submission to Interspeech 2026
+  Anonymous submission
   </div>
+
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/hzGV28HY9qs?si=nuEIHYGL7Pw-vTKR"
+    width="560"
+    height="315"
+    title="VoXtream2 demo"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
 
   <!-- abstract -->
   <div style="width:85%; margin:0 auto;">
@@ -19,15 +43,19 @@ permalink: /
     <p style="font-size: 16px;">
       We present VoXtream2, a zero-shot full-stream TTS model with dynamic speaking-rate control that can be updated mid-utterance on the fly.
       <ul style="font-size: 16px; text-align:left;">
-          <li><b>Dynamic speed control</b>: Distribution matching and Classifier-free guidance allow for a fine-grained speaking rate control, which can be adjusted as the model generates speech.</li>
+          <li><b>Dynamic speed control</b>: Duration distribution guidance and Classifier-free guidance allow for a fine-grained speaking rate control, which can be adjusted as the model generates speech.</li>
           <li><b>Streaming performance</b>: Works <b>4x</b> times faster than real-time and achieves <b>74 ms</b> first packet latency in a full-stream on a consumer GPU.</li>
           <li><b>Translingual capability</b>: Prompt text masking enables support of acoustic prompts in any language.</li>
       </ul>
     </p>
   </div>
 
+  <p style="font-size: 16px;">
+  Try <a href="https://huggingface.co/spaces/voxtream2/demo" target="_blank">VoXtream2 ⚡</a> in your browser on HuggingFace 🤗 spaces.
+  </p>
+
   <!-- architecture -->
-  <img src="{{ "/assets/img/architecture.svg" | relative_url }}"
+  <img src="{{ "/assets/img/architecture_v2.svg" | relative_url }}"
      alt="Architecture"
      style="width:75%; height:auto; display:block; margin:2rem auto 2rem;" />
 
