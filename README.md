@@ -19,6 +19,12 @@ permalink: /
     <a href="https://huggingface.co/spaces/voxtream2/demo" target="_blank">
       <img src="https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Demo-yellow" />
     </a>
+    <a href="https://huggingface.co/datasets/voxtream2/test" target="_blank">
+      <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Test-Dataset-yellow" />
+    </a>
+    <a href="https://huggingface.co/datasets/voxtream2/train" target="_blank">
+      <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Train-Dataset-yellow" />
+    </a>
   </p>
 
   <!-- authors -->
