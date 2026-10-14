@@ -16,11 +16,11 @@ permalink: /
     <a href="https://huggingface.co/voxtream2/model" target="_blank">
       <img src="https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Model-yellow" />
     </a>
-    <a href="https://huggingface.co/spaces/voxtream2/demo" target="_blank">
-      <img src="https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Demo-yellow" />
-    </a>
-    <a href="https://huggingface.co/datasets/voxtream2/test" target="_blank">
+    <a href="https://huggingface.co/datasets/voxtream2/seamless" target="_blank">
       <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Test-Dataset-yellow" />
+    </a>
+    <a href="https://huggingface.co/datasets/voxtream2/emilia-dev" target="_blank">
+      <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Dev-Dataset-yellow" />
     </a>
     <a href="https://huggingface.co/datasets/voxtream2/train" target="_blank">
       <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Train-Dataset-yellow" />
@@ -56,12 +56,8 @@ permalink: /
     </p>
   </div>
 
-  <p style="font-size: 16px;">
-  Try <a href="https://huggingface.co/spaces/voxtream2/demo" target="_blank">VoXtream2 ⚡</a> in your browser on HuggingFace 🤗 spaces.
-  </p>
-
   <!-- architecture -->
-  <img src="{{ "/assets/img/architecture_v2.svg" | relative_url }}"
+  <img src="{{ "/assets/img/architecture.png" | relative_url }}"
      alt="Architecture"
      style="width:75%; height:auto; display:block; margin:2rem auto 2rem;" />
 
