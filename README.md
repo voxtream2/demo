@@ -158,7 +158,7 @@ permalink: /
   </div>
   
   <!-- non stream audio -->
-  <h2>Static speaking-rate control</h2>
+  <h2>Following the speaking rate of human speech</h2>
 
   <style>
   .spk-static-rate-table {
@@ -189,53 +189,77 @@ permalink: /
     </colgroup>
     <thead>
         <tr style="border-bottom:3px solid currentColor;">
-            <th style="vertical-align : middle;text-align: center">Speech Prompt</th>
+            <th style="vertical-align : middle;text-align: center">Human</th>
             <th style="vertical-align : middle;text-align: center">Text</th>
-            <th style="vertical-align : middle;text-align: center">VoiceStar</th>
-            <th style="vertical-align : middle;text-align: center">MaskGCT</th>
+            <th style="vertical-align : middle;text-align: center">WordVoice</th>
+            <th style="vertical-align : middle;text-align: center">MAGIC-TTS</th>
             <th style="vertical-align : middle;text-align: center">VoXtream2</th>
         </tr>
     </thead>
     <tbody>
     <tr>
+        <td style="vertical-align : middle;text-align:center;border:0;"><audio class="static-aud" controls="controls"><source src="{{ "/assets/audio/spk_rate/dynamic/P1075_human.flac" | relative_url }}" autoplay="">Your browser does not support the audio element.</audio><br> </td>
+        <td style="vertical-align: middle; height: 100px; border:0; overflow-wrap: break-word; white-space: normal;">Took the magic away from everyone and brought everyone together and made them understand the wrong decisions they made and taught them how to do it the right way.</td>
         <td style="vertical-align : middle;text-align:center;border:0;">
-          <div class="spk-rate-label">Slow ➔ Fast</div>
-          <audio class="static-aud" controls="controls"><source src="{{ "/assets/audio/spk_rate/static/slow_male.wav" | relative_url }}" autoplay="">Your browser does not support the audio element.</audio><br>
+          <div class="spk-rate-label">Corr=0.889</div>
+          <audio class="static-aud" controls="controls"><source src="{{ "/assets/audio/spk_rate/dynamic/P1075_wordvoice.flac" | relative_url }}" autoplay="">Your browser does not support the audio element.</audio><br>
         </td>
-        <td style="vertical-align: middle; height: 100px; border:0; overflow-wrap: break-word; white-space: normal;">Look, I took the wrong bus once, and it dropped me two stops late, so I walked the rest of the way, and I found a small cafe, that had decent tea.</td>
-        <td style="vertical-align : middle;text-align:center;border:0;"><audio class="static-aud" controls="controls"><source src="{{ "/assets/audio/spk_rate/static/slow_fast_voicestar.wav" | relative_url }}" autoplay="">Your browser does not support the audio element.</audio><br> </td>
-        <td style="vertical-align : middle;text-align:center;border:0;"><audio class="static-aud" controls="controls"><source src="{{ "/assets/audio/spk_rate/static/slow_fast_maskgct.wav" | relative_url }}" autoplay="">Your browser does not support the audio element.</audio><br> </td>
-        <td style="vertical-align : middle;text-align:center;border:0;"><audio class="static-aud" controls="controls"><source src="{{ "/assets/audio/spk_rate/static/slow_fast_voxtream2.wav" | relative_url }}" autoplay="">Your browser does not support the audio element.</audio><br> </td>
+        <td style="vertical-align : middle;text-align:center;border:0;">
+          <div class="spk-rate-label">Corr=0.867</div>
+          <audio class="static-aud" controls="controls"><source src="{{ "/assets/audio/spk_rate/dynamic/P1075_magictts.flac" | relative_url }}" autoplay="">Your browser does not support the audio element.</audio><br>
+        </td>
+        <td style="vertical-align : middle;text-align:center;border:0;">
+          <div class="spk-rate-label">Corr=0.759</div>
+          <audio class="static-aud" controls="controls"><source src="{{ "/assets/audio/spk_rate/dynamic/P1075_voxtream2.flac" | relative_url }}" autoplay="">Your browser does not support the audio element.</audio><br>
+        </td>
     </tr>
     <tr>
+        <td style="vertical-align : middle;text-align:center;border:0;"><audio class="static-aud" controls="controls"><source src="{{ "/assets/audio/spk_rate/dynamic/P0739_human.flac" | relative_url }}" autoplay="">Your browser does not support the audio element.</audio><br> </td>
+        <td style="vertical-align: middle; height: 100px; border:0; overflow-wrap: break-word; white-space: normal;">I think I might like some one of you more one day, one of you less or more, but never less like, like never like a like, I don't ever hate you guys.</td>
         <td style="vertical-align : middle;text-align:center;border:0;">
-          <div class="spk-rate-label">Fast ➔ Slow</div>
-          <audio class="static-aud" controls="controls"><source src="{{ "/assets/audio/spk_rate/static/fast_female.wav" | relative_url }}" autoplay="">Your browser does not support the audio element.</audio><br>
+          <div class="spk-rate-label">Corr=0.772</div>
+          <audio class="static-aud" controls="controls"><source src="{{ "/assets/audio/spk_rate/dynamic/P0739_wordvoice.flac" | relative_url }}" autoplay="">Your browser does not support the audio element.</audio><br>
         </td>
-        <td style="vertical-align: middle; height: 100px; border:0; overflow-wrap: break-word; white-space: normal;">So, my cat stared at the door, like it heard something outside, so I opened the window, and it just sniffed the air, then walked away.</td>
-        <td style="vertical-align : middle;text-align:center;border:0;"><audio class="static-aud" controls="controls"><source src="{{ "/assets/audio/spk_rate/static/fast_slow_voicestar.wav" | relative_url }}" autoplay="">Your browser does not support the audio element.</audio><br> </td>
-        <td style="vertical-align : middle;text-align:center;border:0;"><audio class="static-aud" controls="controls"><source src="{{ "/assets/audio/spk_rate/static/fast_slow_maskgct.wav" | relative_url }}" autoplay="">Your browser does not support the audio element.</audio><br> </td>
-        <td style="vertical-align : middle;text-align:center;border:0;"><audio class="static-aud" controls="controls"><source src="{{ "/assets/audio/spk_rate/static/fast_slow_voxtream2.wav" | relative_url }}" autoplay="">Your browser does not support the audio element.</audio><br> </td>
+        <td style="vertical-align : middle;text-align:center;border:0;">
+          <div class="spk-rate-label">Corr=0.779</div>
+          <audio class="static-aud" controls="controls"><source src="{{ "/assets/audio/spk_rate/dynamic/P0739_magictts.flac" | relative_url }}" autoplay="">Your browser does not support the audio element.</audio><br>
+        </td>
+        <td style="vertical-align : middle;text-align:center;border:0;">
+          <div class="spk-rate-label">Corr=0.829</div>
+          <audio class="static-aud" controls="controls"><source src="{{ "/assets/audio/spk_rate/dynamic/P0739_voxtream2.flac" | relative_url }}" autoplay="">Your browser does not support the audio element.</audio><br>
+        </td>
     </tr>
     <tr>
+        <td style="vertical-align : middle;text-align:center;border:0;"><audio class="static-aud" controls="controls"><source src="{{ "/assets/audio/spk_rate/dynamic/P0421_human.flac" | relative_url }}" autoplay="">Your browser does not support the audio element.</audio><br> </td>
+        <td style="vertical-align: middle; height: 100px; border:0; overflow-wrap: break-word; white-space: normal;">But the idea, no, the rotisserie chicken, because the idea is it brings in people who will spend money in other ways.</td>
         <td style="vertical-align : middle;text-align:center;border:0;">
-          <div class="spk-rate-label">Normal ➔ Fast</div>
-          <audio class="static-aud" controls="controls"><source src="{{ "/assets/audio/spk_rate/static/normal_female.wav" | relative_url }}" autoplay="">Your browser does not support the audio element.</audio><br>
+          <div class="spk-rate-label">Corr=0.418</div>
+          <audio class="static-aud" controls="controls"><source src="{{ "/assets/audio/spk_rate/dynamic/P0421_wordvoice.flac" | relative_url }}" autoplay="">Your browser does not support the audio element.</audio><br>
         </td>
-        <td style="vertical-align: middle; height: 100px; border:0; overflow-wrap: break-word; white-space: normal;">Okay, so my brother called me at 7, he sounded tired, but he still joked around, and it made me laugh, even though my day was messy, and I was glad.</td>
-        <td style="vertical-align : middle;text-align:center;border:0;"><audio class="static-aud" controls="controls"><source src="{{ "/assets/audio/spk_rate/static/normal_fast_voicestar.wav" | relative_url }}" autoplay="">Your browser does not support the audio element.</audio><br> </td>
-        <td style="vertical-align : middle;text-align:center;border:0;"><audio class="static-aud" controls="controls"><source src="{{ "/assets/audio/spk_rate/static/normal_fast_maskgct.wav" | relative_url }}" autoplay="">Your browser does not support the audio element.</audio><br> </td>
-        <td style="vertical-align : middle;text-align:center;border:0;"><audio class="static-aud" controls="controls"><source src="{{ "/assets/audio/spk_rate/static/normal_fast_voxtream2.wav" | relative_url }}" autoplay="">Your browser does not support the audio element.</audio><br> </td>
+        <td style="vertical-align : middle;text-align:center;border:0;">
+          <div class="spk-rate-label">Corr=0.608</div>
+          <audio class="static-aud" controls="controls"><source src="{{ "/assets/audio/spk_rate/dynamic/P0421_magictts.flac" | relative_url }}" autoplay="">Your browser does not support the audio element.</audio><br>
+        </td>
+        <td style="vertical-align : middle;text-align:center;border:0;">
+          <div class="spk-rate-label">Corr=0.695</div>
+          <audio class="static-aud" controls="controls"><source src="{{ "/assets/audio/spk_rate/dynamic/P0421_voxtream2.flac" | relative_url }}" autoplay="">Your browser does not support the audio element.</audio><br>
+        </td>
     </tr>
     <tr>
+        <td style="vertical-align : middle;text-align:center;border:0;"><audio class="static-aud" controls="controls"><source src="{{ "/assets/audio/spk_rate/dynamic/P0561_human.flac" | relative_url }}" autoplay="">Your browser does not support the audio element.</audio><br> </td>
+        <td style="vertical-align: middle; height: 100px; border:0; overflow-wrap: break-word; white-space: normal;">But the fact that they also had been down that road before allowed them to know you, to be able to know how to approach you, and also give you really effective feedback and support because of their own experiences.</td>
         <td style="vertical-align : middle;text-align:center;border:0;">
-          <div class="spk-rate-label">Normal ➔ Slow</div>
-          <audio class="static-aud" controls="controls"><source src="{{ "/assets/audio/spk_rate/static/normal_male.wav" | relative_url }}" autoplay="">Your browser does not support the audio element.</audio><br>
+          <div class="spk-rate-label">Corr=0.428</div>
+          <audio class="static-aud" controls="controls"><source src="{{ "/assets/audio/spk_rate/dynamic/P0561_wordvoice.flac" | relative_url }}" autoplay="">Your browser does not support the audio element.</audio><br>
         </td>
-        <td style="vertical-align: middle; height: 100px; border:0; overflow-wrap: break-word; white-space: normal;">Right, my cat stared at the door, like it heard something outside, so I opened the window, and it just sniffed the air, then walked away, and it felt worth it.</td>
-        <td style="vertical-align : middle;text-align:center;border:0;"><audio class="static-aud" controls="controls"><source src="{{ "/assets/audio/spk_rate/static/normal_slow_voicestar.wav" | relative_url }}" autoplay="">Your browser does not support the audio element.</audio><br> </td>
-        <td style="vertical-align : middle;text-align:center;border:0;"><audio class="static-aud" controls="controls"><source src="{{ "/assets/audio/spk_rate/static/normal_slow_maskgct.wav" | relative_url }}" autoplay="">Your browser does not support the audio element.</audio><br> </td>
-        <td style="vertical-align : middle;text-align:center;border:0;"><audio class="static-aud" controls="controls"><source src="{{ "/assets/audio/spk_rate/static/normal_slow_voxtream2.wav" | relative_url }}" autoplay="">Your browser does not support the audio element.</audio><br> </td>
+        <td style="vertical-align : middle;text-align:center;border:0;">
+          <div class="spk-rate-label">Corr=0.543</div>
+          <audio class="static-aud" controls="controls"><source src="{{ "/assets/audio/spk_rate/dynamic/P0561_magictts.flac" | relative_url }}" autoplay="">Your browser does not support the audio element.</audio><br>
+        </td>
+        <td style="vertical-align : middle;text-align:center;border:0;">
+          <div class="spk-rate-label">Corr=0.762</div>
+          <audio class="static-aud" controls="controls"><source src="{{ "/assets/audio/spk_rate/dynamic/P0561_voxtream2.flac" | relative_url }}" autoplay="">Your browser does not support the audio element.</audio><br>
+        </td>
     </tr>
     </tbody>
   </table>
